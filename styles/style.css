@@ -53,13 +53,18 @@ nav a.button2:hover {
     background-color: #b80f18;
 }
 
+
+img{
+    width: 80%;
+}
+
 .header__calltoaction {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 600px;
+    max-width: 100%;
     padding: 20px;
     color: #FFFFFF;
 }
@@ -97,7 +102,8 @@ nav a.button2:hover {
 .main__calltoaction {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    height: 80vh;
     margin: 0;
     padding: 10px;
     text-align: left;
@@ -105,11 +111,22 @@ nav a.button2:hover {
     border-bottom: 5px solid #232323;
 }
 
+.main__calltoaction__Texto_containt{
+padding: 10px;
+margin: 20px;
+}
+
+.main__calltoaction p{
+    font-size: 24px;
+  
+}
+
+
+
 .main__calltoaction_preguntas_frecuentes {
     margin: 20px;
     padding: 30px;
     text-align: left;
-    border-top: 5px solid #232323;
     border-bottom: 5px solid #232323;
 }
 
@@ -175,7 +192,7 @@ h1 {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 48px;
     line-height: 70px;
     color: #FFFFFF;
     font-weight: 900;
@@ -184,7 +201,7 @@ h2 {
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 24px;
     color: #FFFFFF;
     font-weight: 400;
     padding: 10px;
@@ -198,7 +215,7 @@ h5 {
 }
 
 p {
-    font-size: 21px;
+    font-size: 20px;
     color: #FFFFFF;
     padding: 20px;
     margin: 10px;
